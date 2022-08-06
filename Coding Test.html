@@ -16,7 +16,7 @@
 
 <div id="login-card" class="card">
 <div class="card-body">
-  <h2 class="text-center">Login form</h2>
+  <h2 class="text-center">Login</h2>
   <br>
   <form action="/action_page.php">
     <div class="form-group">
@@ -25,15 +25,29 @@
     <div class="form-group">
       <input type="password" class="form-control" id="email" placeholder="Enter password" name="pswd">
     </div>
-    <button type="submit" id="button" class="btn btn-primary deep-purple btn-block ">Submit</button>
+    <a href=""><button type="submit" id="button" class="btn btn-primary deep-purple btn-block ">Login</button></a>
 <br>
     <br>
    
     <div id="btn" class="text-center">
-   <button type="button" class="btn btn-circle btn-primary btn-sm"><i class="fa fa-facebook"></i><a href="https://www.facebook.com" ></a></button>
-   <button type="button" class="btn btn-danger btn-circle btn-sm"><i class="fa fa-google"></i></button>
-   <button type="button" class="btn btn-info btn-circle btn-sm"><i class="fa fa-twitter" ></i></button>
-   </div>
+        <a href="https://www.facebook.com">
+             <button type="button" class="btn btn-circle btn-primary btn-sm" >
+                 <i class="fa fa-facebook"></i>
+             </button>
+        </a>
+
+        <a href="https://accounts.google.com/accountchooser">
+             <button type="button" class="btn btn-danger btn-circle btn-sm">
+                 <i class="fa fa-google"></i>
+             </button>
+        </a>
+
+        <a href="https://twitter.com/login">
+             <button type="button" class="btn btn-info btn-circle btn-sm">
+                 <i class="fa fa-twitter" ></i>
+             </button>
+        </a>
+    </div>
 
   </form>
 </div>
